@@ -450,8 +450,34 @@ ol li .send {
 a {
 	outline:none;
 }
-@media only screen and(max-width:600px){
-	body {
+body {
+  font-size: 12px;
+}
+
+.header_resize,
+.content_resize {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.content .mainbar {
+  width: 66.66%;
+  float: left;
+}
+
+.content .mainbar .post_content {
+  width: 100%;
+  float: none;
+}
+
+.content .sidebar {
+  width: 33.33%;
+  float: right;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  body {
     font-size: 10px;
   }
 
@@ -461,8 +487,8 @@ a {
   }
 
   .content .mainbar,
-  .content .mainbar .post_content,
   .content .sidebar {
     width: 100%;
+    float: none;
   }
 }
