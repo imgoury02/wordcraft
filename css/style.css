@@ -452,8 +452,17 @@ a {
 }
 @media only screen and(max-width:600px){
 	body {
-		
-		width:100%;
-	
-	}
+    font-size: 10px;
+  }
+
+  .header_resize,
+  .content_resize {
+    width: 100%;
+  }
+
+  .content .mainbar,
+  .content .mainbar .post_content,
+  .content .sidebar {
+    width: 100%;
+  }
 }
