@@ -1,0 +1,31 @@
+.coin-slider {
+	padding:0;
+	overflow:hidden;
+	zoom:1;
+	position:relative;
+}
+/* buttons for switching */
+.cs-buttons {
+	margin:-320px 0 0;
+	padding:0;
+	font-size:0;
+	float:left;
+}
+/* text in slider */
+.cs-title {
+	padding:16px 60px 16px 24px;
+	width:876px;
+	color:#363636;
+	font-size:15px;
+	line-height:1.5em;
+	background:url(../images/overlay2.png) repeat left top;
+}
+.cs-title big {
+	font-size:20px;
+}
+/* buttons Next and Prev*/
+.cs-prev, .cs-next {
+	background:url(../images/overlay2.png) repeat left top;
+	color:#363636;
+	padding:0 10px;
+}
