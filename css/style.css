@@ -435,7 +435,11 @@ ol li .send {
 	text-decoration:underline;
 	background-color:transparent;
 }
-
+.footer_resize a:hover {
+	color:#28ecfa;
+	background-color:transparent;
+	text-decoration:none;
+}
 .footer_resize .lf {
 	float:left;
 }
