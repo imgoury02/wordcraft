@@ -87,27 +87,6 @@ h1 small {
 	float:right;
 	width:auto;
 }
-.rss p {
-	margin:0;
-	padding:0;
-	float:right;
-	width:auto;
-	color:#fff;
-	font-size:13px;
-	line-height:1.5em;
-	font-weight:bold;
-}
-.rss a {
-	color:#fff;
-	text-decoration:none;
-}
-.rss a:hover {
-	text-decoration:underline;
-}
-.rss img {
-	margin:-3px 0 -3px 6px;
-	border:none;
-}
 
 .menu_nav {
 	margin:0 auto;
@@ -435,11 +414,7 @@ ol li .send {
 	text-decoration:underline;
 	background-color:transparent;
 }
-.footer_resize a:hover {
-	color:#28ecfa;
-	background-color:transparent;
-	text-decoration:none;
-}
+
 .footer_resize .lf {
 	float:left;
 }
