@@ -450,45 +450,44 @@ ol li .send {
 a {
 	outline:none;
 }
+/* Default styles for larger screens */
 body {
-  font-size: 12px;
+  font-size: 16px;
 }
 
-.header_resize,
-.content_resize {
+.container {
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
+  overflow: hidden;
 }
 
-.content .mainbar {
-  width: 66.66%;
-  float: left;
+.header, .content, .footer {
+  padding: 20px;
 }
 
-.content .mainbar .post_content {
-  width: 100%;
-  float: none;
+.content {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.content .sidebar {
-  width: 33.33%;
-  float: right;
+.mainbar {
+  flex: 2;
+  margin-right: 20px;
+}
+
+.sidebar {
+  flex: 1;
 }
 
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
   body {
-    font-size: 10px;
+    font-size: 14px;
   }
 
-  .header_resize,
-  .content_resize {
-    width: 100%;
-  }
-
-  .content .mainbar,
-  .content .sidebar {
-    width: 100%;
-    float: none;
+  .mainbar, .sidebar {
+    flex: 100%;
+    margin-right: 0;
   }
 }
+
